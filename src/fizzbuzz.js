@@ -7,7 +7,7 @@ function generarfizzbuzz(n) {
         }
         if(n%5==0)
         {
-            mensaje="buzz"
+            mensaje=mensaje+"buzz"
         }
     }
     else{

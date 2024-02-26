@@ -23,4 +23,11 @@ describe("FizzBuzz", () => {
     expect(generarfizzbuzz(10)).toEqual("buzz");
   });
 
+  it("Deberia mostrar la palabra fizzbuzz para los multiplos del numero 5 y 3", () => {
+    expect(generarfizzbuzz(15)).toEqual("fizzbuzz");
+  });
+  it("Deberia mostrar la palabra fizzbuzz para los multiplos del numero 5 y 3", () => {
+    expect(generarfizzbuzz(30)).toEqual("fizzbuzz");
+  });
+
 });
