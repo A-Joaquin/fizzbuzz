@@ -16,4 +16,11 @@ describe("FizzBuzz", () => {
     expect(generarfizzbuzz(6)).toEqual("fizz");
   });
 
+  it("Deberia mostrar la palabra buzz para los multiplos del numero 5", () => {
+    expect(generarfizzbuzz(5)).toEqual("buzz");
+  });
+  it("Deberia mostrar la palabra buzz para los multiplos del numero 5", () => {
+    expect(generarfizzbuzz(10)).toEqual("buzz");
+  });
+
 });
